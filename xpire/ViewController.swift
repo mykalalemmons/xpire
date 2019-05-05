@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+
+    var makeupData: [String] = [ ]
+    
+    @IBOutlet weak var makeupDataText: UITextField!
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    
+    
+    
 }
 
